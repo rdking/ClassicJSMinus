@@ -1,0 +1,24 @@
+{
+  "name": "classicjsminus",
+  "version": "0.1.0",
+  "description": "ClassicJS without the Proxy penalty.",
+  "main": "cjsminus.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdking/ClassicJSMinus.git"
+  },
+  "keywords": [
+    "class",
+    "private",
+    "protected"
+  ],
+  "author": "Ranando D. King",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rdking/ClassicJSMinus/issues"
+  },
+  "homepage": "https://github.com/rdking/ClassicJSMinus#readme"
+}

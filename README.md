@@ -1,2 +1,4 @@
 # ClassicJSMinus
-ClassicJS without the Proxy penalty
+Since the days of ES5, I've been working towards producing a class library that works like what we've all come to expect from compiled languages supporting the `class` keyword. As you might imagine, this has proved fairly difficult. However, with each iteration, each new idea, I've come closer. The introduction of ES6 brought hope, but turned out to be too limited. The new class-fields proposal again brought hope, but ened up going in a different and incompatible direction.
+
+My latest class library attempt, [ClassicJS](https://github.com/rdking/ClassicJS), brought with it new design concepts that successfully produced the feature set I wanted. However, it also came with a painful kludge: it requires the use of Proxy. Sadly, Proxy generally incurs about a 66% performance hit for every use. This is just too much, especially if one is trying to write a performant class library. As such, I am persuing an idea that should allow for most of ClassicJS's features without the performance hit that is Proxy.
